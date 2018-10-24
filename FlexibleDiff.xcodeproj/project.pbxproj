@@ -651,10 +651,8 @@
 				INFOPLIST_FILE = FlexibleDiff/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactivecocoa.FlexibleDiff;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos watchsimulator watchos appletvsimulator appletvos";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2,3,4";
-				VALID_ARCHS = "i386 x86_64 arm64 armv7 armv7s armv7k";
 			};
 			name = Debug;
 		};
@@ -668,10 +666,8 @@
 				INFOPLIST_FILE = FlexibleDiff/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactivecocoa.FlexibleDiff;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos watchsimulator watchos appletvsimulator appletvos";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2,3,4";
-				VALID_ARCHS = "i386 x86_64 arm64 armv7 armv7s armv7k";
 			};
 			name = Release;
 		};
@@ -683,6 +679,7 @@
 				INFOPLIST_FILE = FlexibleDiffTests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactivecocoa.FlexibleDiffTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "macosx appletvsimulator watchsimulator iphonesimulator";
 			};
 			name = Debug;
@@ -695,6 +692,7 @@
 				INFOPLIST_FILE = FlexibleDiffTests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactivecocoa.FlexibleDiffTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "macosx appletvsimulator watchsimulator iphonesimulator";
 			};
 			name = Release;
